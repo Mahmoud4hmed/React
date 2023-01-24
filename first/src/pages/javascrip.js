@@ -7,7 +7,7 @@ const Javascript = () => {
       <Header />
       <div className="content">
         <div className="text">
-          <h2>IPhone 13 pro max</h2>
+          <h2>Page 4, Javascript</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
             est fugit excepturi atque velit suscipit assumenda voluptas maiores!
