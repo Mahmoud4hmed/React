@@ -1,25 +1,10 @@
-function App() {
+import Header from '../comp/header';
+
+
+const Html = () => {
   return (
     <div className="container">
-      <header>
-        <a href="#">
-          <img src="img/logo.png" className="logo" />
-        </a>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Products</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </header>
+      <Header />
       <div className="content">
         <div className="text">
           <h2>IPhone 13 pro max</h2>
@@ -44,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Html;
