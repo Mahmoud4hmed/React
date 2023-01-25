@@ -4,8 +4,9 @@ import { Link, NavLink } from "react-router-dom";
 const Header = ({mark, deve}) => {
   return (
     <header>
+      <div id="test">
         <span>{mark}</span>
-        <p>{deve}</p>
+        <p>{deve}</p></div>
         <a href="#">
           <img src="img/logo.png" className="logo" />
         </a>

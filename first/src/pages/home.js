@@ -1,8 +1,10 @@
 import Header from '../comp/header';
+import './script';
 
 
 const Home = () => {
   return (
+    <>
     <div className="container">
       <Header mark="home" />
       <div className="content">
@@ -26,6 +28,8 @@ const Home = () => {
         <img onclick="phones(this.src); colors('#c82525')" src="img/4.png" />
       </div>
     </div>
+    <script src="script.js"></script>
+    </>
   );
 }
 

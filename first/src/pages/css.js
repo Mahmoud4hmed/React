@@ -3,6 +3,7 @@ import Header from '../comp/header';
 
 const Css = () => {
   return (
+    <>
     <div className="container">
     <Header mark="CSS" />
       <div className="content">
@@ -26,6 +27,8 @@ const Css = () => {
         <img onclick="phones(this.src); colors('#c82525')" src="img/4.png" />
       </div>
     </div>
+    <script src="script.js"></script>
+    </>
   );
 }
 
