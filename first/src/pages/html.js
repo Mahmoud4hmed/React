@@ -4,7 +4,7 @@ import Header from '../comp/header';
 const Html = () => {
   return (
     <div className="container">
-      <Header />
+      <Header mark="HTML" deve="Glitch" />
       <div className="content">
         <div className="text">
           <h2>Page 2, HTML</h2>

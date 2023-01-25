@@ -4,7 +4,7 @@ import Header from '../comp/header';
 const Javascript = () => {
   return (
     <div className="container">
-      <Header />
+      <Header mark="JavaScript" deve="Mahmoud" />
       <div className="content">
         <div className="text">
           <h2>Page 4, Javascript</h2>

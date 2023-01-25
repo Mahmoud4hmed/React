@@ -4,7 +4,7 @@ import Header from '../comp/header';
 const Css = () => {
   return (
     <div className="container">
-    <Header />
+    <Header mark="CSS" />
       <div className="content">
         <div className="text">
           <h2>Page 3, CSS</h2>

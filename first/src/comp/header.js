@@ -1,10 +1,11 @@
 import * as React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = ({mark, deve}) => {
   return (
     <header>
-        <span>home</span>
+        <span>{mark}</span>
+        <p>{deve}</p>
         <a href="#">
           <img src="img/logo.png" className="logo" />
         </a>
@@ -22,6 +23,7 @@ const Header = () => {
             <NavLink className="main-link" to="/javascript">Javascript</NavLink>
           </li>
         </ul>
+        
       </header>
   );
 }

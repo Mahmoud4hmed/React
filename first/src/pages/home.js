@@ -4,7 +4,7 @@ import Header from '../comp/header';
 const Home = () => {
   return (
     <div className="container">
-      <Header />
+      <Header mark="home" />
       <div className="content">
         <div className="text">
           <h2>Page 1, Home</h2>
